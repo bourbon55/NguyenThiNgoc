@@ -1,10 +1,8 @@
-.menu-lv2> img{
-	background-color: green;
-}
+
 ul{
 	float: left;
 	list-style: none;
-	width: 100%;
+	width: 82%;
 	margin: 0;
 	padding: 0px;
 	background-color: #29da29;
@@ -20,8 +18,9 @@ ul{
 .menu-lv3{
 	position: absolute;
 	top: 40px;
-	left: 0;
+	left: -79px;
 	width: 200px;
+	text-align: left;
 	display: none;
 }
 
@@ -50,8 +49,26 @@ li{
 
 .menu-lv2:hover .menu-lv3{
 	display: block;
-	background-color: lightgreen;
+	background-color: #29da29;
 }
 .news:hover .menu-lv4{
 	display: block;
+}
+.menu:hover{
+	display: block;
+	background-color: lightgreen;
+}
+.menu{
+	color: white;
+}
+#icon{
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	width: 98px;
+}
+#dm{
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
 }
